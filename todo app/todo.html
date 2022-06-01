@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title> Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="todo.js"></script>
+    </head>
+    <body>
+        <!--header section-->
+        <div class="header-row">
+           <div class="header-logo">
+               <img src="tick.png" style="height: 35px;" alt="tick image">
+           </div>
+           <div class="header-text">
+               TODO App
+           </div>
+           <div class="header-user">
+               <img src="user.png" style="height: 35px;" width="45px" alt="user image">
+           </div>
+        </div>
+        <!--task listing-->
+        <div class="task-listing" id="TaskListing">
+          <!-- <div class="single-task">
+                <div class="single-task-check">
+                    <input type="checkbox">
+                </div>
+                <div class="single-task-title">
+                    Task 1
+                </div>>
+                </div>-->
+        </div>
+        <!--add task section-->
+        <div class="add-task">
+            <div>
+                <input id="AddTaskInput" class="add-task-input" type="text">
+            </div>
+            <div class="add-task-button" id="AddTaskButton" onclick="">
+                <div class="button-text" style="height: 22px;">Add</div>
+                <div class="button-image">
+                    <img src="add.png" style="height: 14px;" alt="plus image">
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
